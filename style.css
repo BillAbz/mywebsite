@@ -1,0 +1,62 @@
+body{display: block;
+    border: 5px;
+}
+
+header{
+    text-align: center;
+    color: blue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsssVnQHy8R70fehH5FrlAlcmsPgxbdhAdbm6haUOk7q7KieQNfsAEVE0CA&usqp=CAc);
+
+}
+header h1, header p{
+    text-align: center;
+    align-items: center;
+    border: groove;
+    background-color: grey;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+
+section div {
+    width: 46%;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 10px;
+    border: 20px;
+    margin: 10px;
+    border-color: crimson;
+
+}
+footer {
+    margin: 10px;
+    border: 20px;
+    background-color: darkblue;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    
+}
+
+a {
+    padding: 2px;
+    border-style: double;
+    text-align: center;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+
+}
+
+img {
+    height: 50px;
+}
