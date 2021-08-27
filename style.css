@@ -6,6 +6,7 @@ header{
     text-align: center;
     color: blue;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsssVnQHy8R70fehH5FrlAlcmsPgxbdhAdbm6haUOk7q7KieQNfsAEVE0CA&usqp=CAc);
+    height: 150px;
 
 }
 header h1, header p{
@@ -13,6 +14,11 @@ header h1, header p{
     align-items: center;
     border: groove;
     background-color: grey;
+}
+
+header nav {
+    text-align: right;
+    
 }
 
 
