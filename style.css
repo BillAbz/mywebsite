@@ -18,7 +18,20 @@ header h1, header p{
 
 header nav {
     text-align: right;
+    background: none;
     
+}
+
+nav {
+    background-color:cornsilk;
+}
+
+main {
+    display: flex;
+}
+
+main article{
+    background-color: darkgreen;
 }
 
 
