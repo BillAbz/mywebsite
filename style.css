@@ -55,6 +55,7 @@ section {
 
 section div {
     width: 46%;
+    background: rgba(240, 230, 140, 0.733);
 }
 
 .category {
@@ -64,7 +65,7 @@ section div {
     padding: 10px;
     border: 20px;
     margin: 10px;
-    color: white;
+    color: black;
 
 }
 footer {
