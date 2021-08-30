@@ -10,15 +10,12 @@ body{display: block;
 header{
     text-align: center;
     color: blue;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsssVnQHy8R70fehH5FrlAlcmsPgxbdhAdbm6haUOk7q7KieQNfsAEVE0CA&usqp=CAc);
     height: 150px;
-
+    background: rgba(128, 128, 128, 0.803);
 }
 header h1, header p{
     text-align: center;
     align-items: center;
-    border: groove;
-    background-color: grey;
 }
 
 header nav {
@@ -28,8 +25,7 @@ header nav {
 }
 
 nav {
-    background-color:cornsilk;
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    background: rgba(255, 248, 220, 0.589); 
     text-emphasis: white;
 
 }
@@ -39,7 +35,7 @@ main {
 }
 
 main article{
-    background-color: darkgreen;
+    background-color: rgba(0, 100, 0, 0.514);
     display: block;
     padding: 10px;
 }
@@ -68,7 +64,7 @@ section div {
     padding: 10px;
     border: 20px;
     margin: 10px;
-    border-color: crimson;
+    color: white;
 
 }
 footer {
@@ -103,7 +99,7 @@ form {
     width: 200px;
     border-style: double;
     padding: 50px;
-    background-color: thistle;
+    background-color: rgba(216, 191, 216, 0.76);
 
 }
 form p{
