@@ -1,5 +1,10 @@
 body{display: block;
     border: 5px;
+    background-image: url("img/E1_L6LSWQAYdRYn.jpeg");
+    background-size: cover;
+    text-emphasis: white;
+    height: auto;
+
 }
 
 header{
@@ -24,6 +29,9 @@ header nav {
 
 nav {
     background-color:cornsilk;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    text-emphasis: white;
+
 }
 
 main {
@@ -32,6 +40,14 @@ main {
 
 main article{
     background-color: darkgreen;
+    display: block;
+    padding: 10px;
+}
+
+article img {
+    border-radius: 80%;
+    height: 80px;
+    margin-left: 20px;
 }
 
 
@@ -78,4 +94,30 @@ a {
 
 img {
     height: 50px;
+}
+
+form {
+    margin-top: 80px;
+    margin-left: 500px;
+    border-color: blue;
+    width: 200px;
+    border-style: double;
+    padding: 50px;
+    background-color: thistle;
+
+}
+form p{
+   text-align: left;
+}
+form input {
+    width: auto;
+    height: 30px;
+}
+
+form button {
+    margin: 20px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    width: auto;
 }
