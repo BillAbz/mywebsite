@@ -1,26 +1,33 @@
-body{display: block;
+body{
+    position: relative;
+    display: block;
     border: 5px;
     background-image: url("img/E1_L6LSWQAYdRYn.jpeg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
     text-emphasis: white;
     height: auto;
 
 }
 
 header{
+    position: relative;
+    margin: auto;
     text-align: center;
     color: blue;
     height: 150px;
     background: rgba(128, 128, 128, 0.803);
 }
 header h1, header p{
+    margin: auto;
     text-align: center;
-    align-items: center;
 }
 
 header nav {
-    text-align: right;
+    position: absolute;
     background: none;
+    right: 0;
     
 }
 
@@ -40,22 +47,18 @@ main article{
     padding: 10px;
 }
 
-article img {
-    border-radius: 80%;
-    height: 80px;
-    margin-left: 20px;
-}
-
 
 section {
+    position:static;
     display: flex;
     flex-wrap: wrap;
     margin: 2px;
 }
 
 section div {
-    width: 46%;
-    background: rgba(240, 230, 140, 0.733);
+    margin: auto;
+    max-width: 550px;
+    background: rgba(240, 230, 140, 0.651);
 }
 
 .category {
@@ -66,12 +69,27 @@ section div {
     border: 20px;
     margin: 10px;
     color: black;
+    height: 400px;
+    width: 600px;
+}
+
+.category img {
+    width: auto;
 
 }
+
+div.category a {
+    position: relative;
+    bottom: 10;
+    height: 30px;
+    
+}
 footer {
-    margin: 10px;
+    position: relative;
+    bottom: 0;    
+    width: 100%;
     border: 20px;
-    background-color: darkblue;
+    background-color: rgba(0, 111, 139, 0.527);
     padding: 2px;
     color: white;
     text-align: center;
@@ -89,17 +107,22 @@ a {
 
 }
 
+a:hover {
+    background-color: rgb(0, 174, 255);
+}
+
 img {
     height: 50px;
 }
 
 form {
-    margin-top: 80px;
-    margin-left: 500px;
+    position: relative;
+    margin: auto;
+    max-width: 300px;
     border-color: blue;
-    width: 200px;
     border-style: double;
     padding: 50px;
+    padding-bottom: 80px;
     background-color: rgba(216, 191, 216, 0.76);
 
 }
@@ -107,14 +130,40 @@ form p{
    text-align: left;
 }
 form input {
-    width: auto;
+    width: 100%;
     height: 30px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+
+}
+form input:focus {
+    background-color: lightblue;
 }
 
-form button {
-    margin: 20px;
-    padding: 20px;
+button {
+    position: absolute;
+    margin: auto;
+    margin-top: 10px;
+    padding: 12px;
     background-color: blue;
     color: white;
-    width: auto;
+    right: 42px;
+    
+}
+form button:hover{
+    background-color: lightblue;
+}
+
+form textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+   
+}
+
+.focus{
+    background-color: darkviolet;
 }
